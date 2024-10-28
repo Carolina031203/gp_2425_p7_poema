@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            background-color: #A9A9A9;
+            color: blue;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            padding: 10px;
+        }
+        .titulo{
+            font-size: 36px;
+            font-weight: bold;
+        }
+        .poema {
+            font-size: 18px;
+            line-height: 1rem;
+        }
+        .line {
+            position: absolute;
+        }
+        p {
+            transition: transform 0.5s ease; /* Añadir transición para el movimiento */
+        }
+        p:hover {
+            transform: translateX(10px); /* Mueve el texto a la derecha al pasar el mouse */
+        }
+        p:hover:nth-child(odd) {
+            transform: translateX(-10px); /* Mueve el texto a la izquierda si es impar */
+        }
+        p:first-child{
+            margin-left: 10%;
+        }
+        p:nth-child(2){
+            margin-left: 35%;
+        }
+        p:nth-child(3){
+            margin-left: 55%;
+        }
+        p:nth-child(4){
+            margin-left:75%;
+        }
+        p:nth-child(5){
+            padding-top: 2.5%;
+            margin-left:49%;
+        }
+        p:nth-child(6){
+            margin-left: 24%;
+        }
+        p:nth-child(7){
+            margin-left:0%;
+        }
+        p:nth-child(8){
+            margin-left: 24%;
+        }
+        p:nth-child(9){
+            margin-left:57.5%;
+        }
+        p:nth-child(10){
+            margin-left:80%;
+        }
+        p:nth-child(11){
+            margin-left: 60%;
+        }
+        p:nth-child(12){
+            margin-left:22%;
+        }
+        p:nth-child(13){
+            margin-left:0%;
+        }
+        p:nth-child(14){
+            margin-left: 22%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="titulo">EPISODI III</h1>
+        <div class="poema">
+            <p>Una esveltesa que arribava a música,</p>
+            <p> agraïts els pámpols a la brisa,</p>
+            <p>i ja era el dia que anomena l'or,</p>
+            <p>síl·labes d'aigua, treballades coses.</p>
+            <p>Ara t'invoque, de llorers verdíssims,</p>
+            <p>dia de sempre, i commemore amb festa </p>
+            <p>pluges que et feren i et multiplicarem,</p>
+            <p>pedres que tenen la color delc pa.</p>
+            <p>De brisa fores, incitantn les teles.</p>
+            <p>el gerani a la finestra, explícit,</p>
+            <p> i ho narraria, fill per randa, tot.</p>
+            <p>De vidre fores, com quan amaneix,</p>
+            <p>i d'aigua fores, de princïpi intacte,</p>
+            <p>rosa cbdal, inicial del jorn.</p>
+        </div>
+    </div>
+</body>
+</html>
